@@ -14,8 +14,8 @@ export const Bio = {
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aniket-patidar-0b921b219/",
   insta: "https://www.instagram.com/_mr_aniket_patidar/",
-  twitter: "https://twitter.com/RishavChanda",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  twitter: "",
+  facebook: "",
 };
 
 export const skills = [
@@ -210,9 +210,8 @@ export const projects = [
   {
     id: 0,
     title: "Gym Web Site",
-    description:"Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "./projects/gym.png",
+    description: "Gym Web Site is a sleek and modern web application designed for fitness enthusiasts and gym owners. It offers a user-friendly platform to explore various workout plans, book classes, and track progress. Built with Next.js and Tailwind CSS, the website ensures a seamless and responsive experience across devices. The integration of JavaScript enhances interactivity and performance, making it a robust solution for all your fitness needs.",
+    image: "./projects/Gym.png",
     tags: [
       "Next.js",
       "Tailwind CSS",
@@ -224,10 +223,9 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Eletric Scoter",
-    description:"Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "./projects/scoter.png",
+    title: "Electric Scooter",
+    description: "Electric Scooter is an innovative web application tailored for electric scooter rentals. It provides a streamlined interface for users to locate, rent, and manage electric scooters effortlessly. Developed using Next.js and Tailwind CSS, the app offers a fast and visually appealing user experience. JavaScript integration ensures smooth navigation and real-time updates, making it an ideal choice for urban mobility solutions.",
+    image: "./projects/scoter.png",
     tags: [
       "Next.js",
       "Tailwind CSS",
@@ -240,9 +238,8 @@ export const projects = [
   {
     id: 3,
     title: "Job Portal",
-    description:"Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "./projects/job.png",
+    description: "Job Portal is a comprehensive web application designed to connect job seekers with employers. It features a powerful search engine, user-friendly interface, and secure login system to facilitate job applications and recruitment processes. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it leverages Next.js and Tailwind CSS for a dynamic and responsive design, while JavaScript enhances functionality.",
+    image: "./projects/job.png",
     tags: [
       "Next.js",
       "Tailwind CSS",
@@ -255,7 +252,29 @@ export const projects = [
     github: "https://github.com/Aniket-Patidar/Satisfide-Frontend-Job",
     webapp: "https://satisfiedjob.com/",
   },
- ];
+  {
+    id: 4,
+    title: "Ecommerce Website",
+    description: "Ecommerce Website is a sophisticated web application for online shopping, providing a seamless and secure platform for customers to browse and purchase products. It features advanced functionalities like product search, user authentication, and payment processing. The site is built using the MERN stack, with additional support from TypeScript and REST APIs, ensuring a robust and scalable solution. Next.js and Tailwind CSS deliver a modern and responsive user interface.",
+    image: "./projects/pachmari.png",
+    tags: [
+      "Next.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Nodejs",
+      "MongoDB",
+      "MERN Stack",
+      "TypeScript",
+      "Rest Api"
+    ],
+    category: "web app",
+    github: "https://github.com/aniketpatidar123/backend-pachmai",
+    webapp: "https://pachmani-next.vercel.app/",
+  }
+
+];
+
+
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },

@@ -128,7 +128,7 @@ const Contact = () => {
   const form = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_w1s9tfk', 'template_m30cfzt', form.current, 'hFhwa4v5jzjAPbLIU')
+    emailjs.sendForm('service_w1s9tfk', 'template_6605idr', form.current, 'hFhwa4v5jzjAPbLIU')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -152,7 +152,7 @@ const Contact = () => {
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
+          onClose={() => setOpen(false)}
           message="Email sent successfully!"
           severity="success"
         />
