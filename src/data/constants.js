@@ -286,8 +286,27 @@ export const projects = [
     category: "web app",
     github: "https://github.com/aniketpatidar123/backend-pachmai",
     webapp: "https://pachmani-next.vercel.app/",
-  }
-
+  },
+ 
+{
+    id: 6,
+    title: "Job Portal",
+    description: "Job Portal is a comprehensive android application designed to connect job seekers with employers. It features a powerful search engine, user-friendly interface, and secure login system to facilitate job applications and recruitment processes. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it leverages Next.js and Tailwind CSS for a dynamic and responsive design, while JavaScript enhances functionality.",
+    image: "./projects/satisfied-app.png",
+    tags: [
+      "React Native",
+      "Tailwind CSS",
+      "JavaScript",
+      "Nodejs",
+      "MongoDB",
+      "MERN Stack",
+      "TypeScript",
+      "Rest Api"
+    ],
+    category: "android app",
+    github: "https://play.google.com/store/apps/details?id=com.aniketpatidar.SatisfiedJobs&pcampaignid=web_share",
+    webapp: "https://play.google.com/store/apps/details?id=com.aniketpatidar.SatisfiedJobs&pcampaignid=web_share",
+  },
 ];
 
 
