@@ -152,7 +152,7 @@ export const experiences = [
       "Node.js",
       "Express.js",
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    doc: "https://img.freepik.com/free-vector/city-skyline-concept-illustration_114360-8923.jpg?t=st=1719248020~exp=1719251620~hmac=2c1d03e273a2ce98f5e84868e02c7ce2a230ec787928a38a2987e8c4cbeff110&w=1060",
   },
   {
     id: 1,
@@ -172,7 +172,7 @@ export const experiences = [
       "Node.js",
       "Express.js",
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    doc: "https://img.freepik.com/free-vector/city-skyline-concept-illustration_114360-8923.jpg?t=st=1719248020~exp=1719251620~hmac=2c1d03e273a2ce98f5e84868e02c7ce2a230ec787928a38a2987e8c4cbeff110&w=1060",
   },
 ];
 
@@ -180,11 +180,11 @@ export const education = [
   {
     id: 0,
     img: "https://img.freepik.com/free-vector/vector-cartoon-illustration-school-building-green-lawn-road-trees-educalion-l_134830-1588.jpg?t=st=1719247666~exp=1719251266~hmac=eacfe2fb7c3ab445981159406fe9eef5fa286624fff4f9d5abf67d3a066a20d2&w=1380",
-    school: "Lakshmi Narain College of Technology, Bhopal",
-    date: "2021 - 2024",
-    grade: "8 CGPA",
-    desc: "I have completed my Bachelor's degree in Computer Applications at Lakshmi Narain College of Technology, Bhopal. I have taken courses in Computer Programming, Software Engineering, Database Management Systems, Web Development, and Computer Networks. I have also participated in various college events and tech fests, and have been an active member of the college coding club.",
-    degree: "Bachelor of Computer Applications - BCA",
+    school: "Sagar Institute of Research & Technology, Bhopal",
+    date: "2024 - 2026",
+    grade: "N.A",
+    desc: "I am Pursuing Master in Computer Applications at Sagar Institute of Research & Technology, Bhopal. I have taken courses in Computer Programming, Software Engineering, Database Management Systems, Web Development, and Computer Networks. I have also participated in various college events and tech fests, and have been an active member of the college coding club.",
+    degree: "Master of Computer Applications - MCA",
   },
   {
     id: 1,
@@ -207,6 +207,22 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 5,
+    title: "Eurotechxchange",
+    description: "Worked as a Full Stack Developer on a car exchange platform using the T3 stack for a client based in Dubai. Developed features that enhance the efficiency of car exchanges and designed user-friendly interfaces to improve the overall user experience.",
+    image: "./projects/etx.png",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "TRPC",
+      "Prisma",
+      "Tailwind CSS",
+    ],
+    category: "web app",
+    github: "https://eurotechxchange.com/",
+    webapp: "https://eurotechxchange.com/",
+  },
   {
     id: 0,
     title: "Gym Web Site",
