@@ -208,6 +208,22 @@ export const education = [
 
 export const projects = [
   {
+    id: 7,
+    title: "Get Tala",
+    description: "Created an interactive web experience using GSAP, ScrollTrigger, HTML, CSS, and JavaScript, featuring smooth scroll-triggered animations. This project showcases dynamic content that responds to user interactions seamlessly.",
+    image: "./projects/getTala.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Scroll Trigger",
+      "Gsap",
+    ],
+    category: "web app",
+    github: "https://github.com/Aniket-Patidar/get-tala-animation",
+    webapp: "https://get-tala-animation.vercel.app",
+  },
+  {
     id: 5,
     title: "Eurotechxchange",
     description: "Worked as a Full Stack Developer on a car exchange platform using the T3 stack for a client based in Dubai. Developed features that enhance the efficiency of car exchanges and designed user-friendly interfaces to improve the overall user experience.",
@@ -287,8 +303,7 @@ export const projects = [
     github: "https://github.com/aniketpatidar123/backend-pachmai",
     webapp: "https://pachmani-next.vercel.app/",
   },
- 
-{
+  {
     id: 6,
     title: "Job Portal",
     description: "Job Portal is a comprehensive android application designed to connect job seekers with employers. It features a powerful search engine, user-friendly interface, and secure login system to facilitate job applications and recruitment processes. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it leverages Next.js and Tailwind CSS for a dynamic and responsive design, while JavaScript enhances functionality.",
