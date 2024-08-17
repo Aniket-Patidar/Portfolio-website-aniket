@@ -322,6 +322,22 @@ export const projects = [
     github: "https://play.google.com/store/apps/details?id=com.aniketpatidar.SatisfiedJobs&pcampaignid=web_share",
     webapp: "https://play.google.com/store/apps/details?id=com.aniketpatidar.SatisfiedJobs&pcampaignid=web_share",
   },
+  {
+    id: 7,
+    title: "Fanta",
+    description: "Redesigned the Fanta website with a fresh, vibrant UI using HTML, CSS, JavaScript, ScrollTrigger, and GSAP. The site features engaging animations and interactive elements that enhance the user experience as they explore the brand.",
+    image: "./projects/fanta.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Scroll Trigger",
+      "Gsap",
+    ],
+    category: "web app",
+    github: "https://fanta-mu.vercel.app/",
+    webapp: "https://fanta-mu.vercel.app/",
+  },
 ];
 
 
